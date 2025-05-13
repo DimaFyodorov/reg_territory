@@ -1,0 +1,13 @@
+[project]
+name = "reg_territory"
+version = "0.0.0"
+description = "NOT RELEASE! https://github.com/DimaFyodorov/reg_territory"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiosqlite>=0.21.0",
+    "dotenv>=0.9.9",
+    "fastapi>=0.115.12",
+    "sqlalchemy>=2.0.40",
+    "uvicorn>=0.34.0",
+]
